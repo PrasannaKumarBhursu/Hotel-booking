@@ -1,13 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: #fafafa;
+  --color-gray-200: #222;
+  --color-gray-300: #0c1623;
+  --color-salmon-100: #ff7665;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dimgray-100: #555;
+  --color-gainsboro-100: #e8e8e8;
+  --color-gainsboro-200: #ddd;
+  --color-indianred-100: rgba(211, 101, 88, 0.1);
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+  --br-base: 16px;
+  --br-16xl: 35px;
+  --br-261xl: 280px;
+  --br-31xl: 50px;
+  --br-5xs: 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-mini-9: 14.9px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-17xl: 36px;
+  --font-size-lg-5: 18.5px;
+
+  /* Colors */
+  
+  --color-gray-100: #fafafa;
+  --color-gray-200: #222;
+  --color-gray-300: #7c7c7c;
+  --color-gray-400: #222;
+  --color-gray-500: #0c1623;
+  --color-salmon-100: #ff7665;
+  --color-salmon-200: rgba(255, 118, 101, 0.1);
+  --color-salmon-300: rgba(255, 118, 101, 0.4);
+  --color-white: #fff;
+  --color-gainsboro-100: #e6e6e6;
+  --color-gainsboro-200: #ddd;
+  --color-black: #000;
+  --color-dimgray-100: #555;
+  --color-mintcream: #f4fbf8;
+  --color-mediumseagreen-100: #24ab70;
+  --color-mediumseagreen-200: rgba(36, 171, 112, 0.1);
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-261xl: 280px;
+  --br-16xl: 35px;
+  --br-18xl-2: 37.2px;
+  --br-13xl-5: 32.5px;
+  --br-mini-9: 14.9px;
+  --br-lg-6: 18.6px;
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+  --br-xl: 20px;
 }
